@@ -1,0 +1,38 @@
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box div{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.box div:nth-child(1){
+    background-color: violet;
+}
+.box div:nth-child(2){
+    background-color: indigo;
+    width: 50px;
+    transform: translateY(50px);
+}
+.box div:nth-child(3){
+    background-color: blue;
+}
+.box div:nth-child(4){
+    background-color: green;
+    height: 50px;
+}
+.box div:nth-child(5){
+    background-color: yellow;
+    height: 200px;
+    width: 20px;
+    transform: translateY(-20px);
+}
+.box div:nth-child(6){
+    background-color: orange;
+}
+.box div:nth-child(7){
+    background-color: red;
+}
